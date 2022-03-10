@@ -370,7 +370,7 @@ int lastError=0, sumError=0; //sum???
 		 OLED_ShowSignedNum(3, 9, SOM1_Out, 6);
 		 
 		 //Õ¼¿Õ±È=x/20000
-		 TIM_SetCompare1(TIM3,2700);		//500/20000==0.5/20
+		 TIM_SetCompare1(TIM3,command);		//500/20000==0.5/20
 		 delay_ms(1000);
 //		 TIM_SetCompare1(TIM3,1000);
 //		 delay_ms(1000);
