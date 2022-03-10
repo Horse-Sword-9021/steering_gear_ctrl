@@ -7,7 +7,7 @@
 
 * 有疑问联系：
   * 小马，QQ或WeChat：3071910019，欢迎一起探讨交流。
-  * 小蒋，……嗯……，她的联系方式，就不给了。
+  * 小蒋，……嗯……，她的联系方式，我就不给了。
 
 ## 简介
 
@@ -164,14 +164,14 @@
 
         OLED显示屏GND接B6，SDA接B9
 
-* ![imgs\stm32xian.jpg](imgs\stm32xian.jpg)
+* ![imgs\stm32xian.png](imgs\stm32xian.png)
 
         定时器3的通道1和2，舵机信号线可接PA6或PA7，电源线接5v
 
         ST-Link连接到上开发板（如下图所示），用keil编译程序通过后，将程序下载到开发板上，
 
 * 下载程序时的连接
-![imgs\st_xian.jpg](imgs\st_xian.jpg)
+![imgs\st_xian.png](imgs\st_xian.png)
 
         command初始值为500（0°），下载完成后，按下reset键，舵机旋转至初始位置，
 
@@ -189,7 +189,7 @@
 
 * 如图所示
 
-* ![imgs\CH340xian.jpg](imgs\CH340xian.jpg)
+* ![imgs\CH340xian.png](imgs\CH340xian.png)
 
 * ![imgs/b1.png](imgs/b1.png)
 
