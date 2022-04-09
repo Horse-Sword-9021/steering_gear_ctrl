@@ -11,9 +11,13 @@
 
 ## 简介
 
-    开发板STM32F103C8
-    软件MDK-ARM，keil5
-    基于标准库的开发
+    硬件
+        开发板STM32F103C8，舵机MG90或SG90
+        下载程序使用ST-Link，与上位机通信采用CH340
+        OLED显示屏显示部分参数，面包板固定所有器件接线
+    软件
+        MDK-ARM，keil5，基于标准库的开发。
+        上位机软：Y-serialplot
 
 * ## 波形显示及上位机控制软件地址：<https://github.com/syuan7/y-serialplot>
 
